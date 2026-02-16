@@ -26,3 +26,4 @@ Obyekt fayllarının, standart funksiyaların və digər dillərdə (məs. Assem
 İcra Olunan Fayl -----
 Yığıcı tərəfindən kitabxana funksiyaları qoşulduqdan sonra yaranan hazır proqram (.exe).
 
+[Mühazirəni PDF formatında yüklə](ders_01.pdf)
