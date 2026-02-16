@@ -27,5 +27,3 @@ Obyekt fayllarının, standart funksiyaların və digər dillərdə (məs. Assem
 Yığıcı tərəfindən kitabxana funksiyaları qoşulduqdan sonra yaranan hazır proqram (.exe).
 
 [Mühazirəni PDF formatında yüklə](ders_01.pdf)
-### 📝 Özünü Yoxla
-* [Lesson 01: Bilik Testi (NotebookLM)](https://notebooklm.google.com/notebook/a49e20d3-12da-499a-8f14-f02388e24ea2?artifactId=53429913-a944-4dea-a8ff-c75f4ae49045)
