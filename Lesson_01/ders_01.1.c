@@ -1,8 +1,11 @@
-#include <stdio.h>
+//CODE_01
 
-int main() {
-  printf("Hello World!");
-  printf("I am learning C.");
-  printf("And it is awesome!");
-  return 0;
+# include <stdio.h>
+# include <conio.h>
+int main(){
+    printf("Salam"); //qisa kod izahi
+    getch();
+/*uzun yazi qeydleri ucun
+CONIO.H funksiyasi mutleq lazimdir getch() funksiyasi ucun*/
 }
+
