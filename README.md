@@ -1,9 +1,3 @@
-Tamamilə razıyam! Tələbələrin təməldən terminal ilə işləməyi öyrənməsi onların gələcəkdə peşəkar mühəndis kimi yetişməsi üçün çox vacibdir. Terminaldan qorxmaq yerinə, ona hakim olmağı öyrənməlidirlər.
-
-C proqramlaşdırma repozitoriyanız üçün hazırladığım bu **README.md** mətni, tələbələrə kodun yazılmasından icrasına qədər olan yolu "peşəkar üsulla" izah edir:
-
----
-
 # C Proqramlaşdırma: Laboratoriya İşləri 💻
 
 Bu repozitoriya **Western Caspian University** tələbələri üçün C proqramlaşdırma dilinin əsaslarını öyrənmək məqsədilə yaradılmışdır. Burada siz real kompilyasiya prosesini və terminal əmrlərini öyrənəcəksiniz.
@@ -77,9 +71,6 @@ int main() {
 
 ---
 
-Möhtəşəm! Tələbələr adətən xəta mesajlarını (error logs) görəndə həyəcanlanırlar, amma bu bölmə onlara başa salacaq ki, xətalar əslində proqramlaşdırmanın bir hissəsidir və onları "oxumağı" öyrənmək lazımdır.
-
-Bu bölməni hazırladığımız **README.md** faylının sonuna əlavə edə bilərsiniz:
 
 ---
 
@@ -123,9 +114,6 @@ Kodu 50 sətir birdən yazıb sonra kompilyasiya etməyin. Hər 2-3 sətirdən b
 
 ---
 
-Əla fikirdir! `scanf` funksiyası və dəyişən adlandırılması C proqramlaşdırmanın ən kritik təməllərindəndir. Xüsusilə `scanf`-da unudulan `&` (ünvan) işarəsi tələbələrin ən çox qarşılaşdığı və proqramın "çökməsinə" (crash) səbəb olan xətadır.
-
-Bu "Yaddaş kitabçası"nı README faylınıza əlavə edə bilərsiniz:
 
 ---
 
