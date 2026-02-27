@@ -12,6 +12,29 @@ C dilində yazdığınız bir kodun proqram kimi işləməsi üçün iki əsas m
 
 ### 1. Terminalı Açın
 
+Github-a daxil olun
+GitHub Codespaces - yaşıl rəngli <>Code düyməsinə klikləyin ordan isə - "Create codespace on main" - düyməsinə kliklədikdə, GitHub sizin üçün buludda xüsusi bir virtual mühit yaradır. Bu, kompüterinizə heç bir əlavə proqram (məsələn, mürəkkəb compiler-lər və ya IDE-lər) quraşdırmadan birbaşa brauzer daxilində kod yazmağa və onu işə salmağa imkan verir.
+
+Hazırlanma: Bir neçə saniyə ərzində mühit qurulacaq.
+
+Redaktor: Qarşınızda Visual Studio Code-un brauzer versiyası açılacaq.
+
+İş sahəsi: Sol tərəfdəki fayl siyahısında qovluqları görəcəksiniz.
+
+Kodlama:  .c faylını açıb və ya yaradıb kodunuzu yaza və terminal vasitəsilə icra edə bilərsiniz.
+
+1. Mövcud fayllar üzərində işləmək
+Şəkildə gördüyünüz qovluqların içində artıq .c faylları varsa, sadəcə sol tərəfdəki siyahıdan həmin faylın üzərinə klikləməyiniz kifayətdir. Fayl mərkəzi ekranda açılacaq və siz kodu redaktə edə biləcəksiniz.
+
+2. Yeni fayl yaratmaq
+Əgər tamamilə yeni bir kod yazmaq istəyirsinizsə, bunu birbaşa brauzer daxilində edə bilərsiniz:
+
+Sol paneldə boş bir yerə sağ düymə ilə klikləyin və ya kod yazdiginiz qovluğu açaraq onun daxilində sağ düymə ilə klikləyin
+
+"New File" seçin.
+
+Fayla ad verin (məsələn: test.c). Vacib məqam: Faylın sonuna mütləq .c artırın ki, sistem onun C dili olduğunu başa düşsün.
+
 Klaviaturada `Ctrl` + ``` (tab düyməsinin üstü) düymələrini sıxaraq terminal pəncərəsini açın.
 
 ### 2. Kompilyasiya (Compilation)
