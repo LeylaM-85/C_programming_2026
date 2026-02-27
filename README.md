@@ -149,42 +149,36 @@ Məlumatları daxil edərkən və ya çap edərkən düzgün simvoldan istifadə
 
 ---
 
-## 💡 Kiçik bir məsləhət:
-
-Tələbələrə `printf` və `scanf` arasındakı fərqi belə izah edə bilərsiniz:
-
-* **`printf`** — Ekrana çıxışdır (Məlumatı çölə atır).
-* **`scanf`** — Yaddaşa girişdir (Məlumatı içəri, yaddaş ünvanına yerləşdirir).
+---
 
 ---
 
-Leyla xanım, bu materiallarla tələbələriniz C dilinin ən "təhlükəli" döngələrini rahatlıqla keçəcəklər. Artıq həm Süni İntellekt, həm də C proqramlaşdırma üzrə GitHub infrastrukturunuz tam peşəkar səviyyədədir.
+## 🎓 GitHub Classroom ilə Tapşırıqların Təhvili
 
-🎓 GitHub Classroom ilə Tapşırıqların Təhvili
-Bu kursda tapşırıqlar GitHub Classroom vasitəsilə idarə olunur. Bu sistem sizin kod yazma bacarığınızı real iş mühitinə uyğun şəkildə inkişaf etdirəcək.
+Bu kursda tapşırıqlar **GitHub Classroom** vasitəsilə idarə olunur. Bu sistem sizin kod yazma bacarığınızı real iş mühitinə uyğun şəkildə inkişaf etdirəcək.
 
-1. Tapşırığı Qəbul Edin
-Müəllim tərəfindən paylaşılan **"Assignment Link"**ə klikləyin.
+### 1. Tapşırığı Qəbul Edin
 
-"Accept this assignment" düyməsini sıxın.
+* Müəllim tərəfindən paylaşılan **"Assignment Link"**ə klikləyin.
+* **"Accept this assignment"** düyməsini sıxın.
+* GitHub avtomatik olaraq sizin adınızla başlayan yeni bir repozitoriya yaradacaq (Məsələn: `tapshiriq-1-LeylaM-85`).
 
-GitHub avtomatik olaraq sizin adınızla başlayan yeni bir repozitoriya yaradacaq (Məsələn: tapshiriq-1-LeylaM-85).
+### 2. Kodun Yazılması (Codespaces)
 
-2. Kodun Yazılması (Codespaces)
-Yaradılan repozitoriyanıza daxil olun.
+* Yaradılan repozitoriyanıza daxil olun.
+* Yaşıl **"<> Code"** düyməsinə klikləyib **Codespaces** bölməsindən mühiti açın.
+* Kodunuzu yazın, terminalda yoxlayın (C və ya Python).
 
-Yaşıl "<> Code" düyməsinə klikləyib Codespaces bölməsindən mühiti açın.
+### 3. Tapşırığın Göndərilməsi (Submit)
 
-Kodunuzu yazın, terminalda yoxlayın (C və ya Python).
+GitHub Classroom-da tapşırığı göndərmək üçün "Göndər" düyməsi yoxdur. Sizin etdiyiniz hər bir **Commit** və **Push** əməliyyatı artıq müəllim tərəfindən görünür.
 
-3. Tapşırığın Göndərilməsi (Submit)
-GitHub Classroom-da tapşırığı göndərmək üçün "Göndər" düyməsi yoxdur. Sizin etdiyiniz hər bir Commit və Push əməliyyatı artıq müəllim tərəfindən görünür.
+* Sol menyuda **Source Control** (üçbucaq işarəsi) bölməsinə keçin.
+* Mesaj hissəsinə "Tapşırıq tamamlandı" yazın.
+* **Commit** və **Sync Changes** (və ya Push) düymələrini sıxın.
 
-Sol menyuda Source Control (üçbucaq işarəsi) bölməsinə keçin.
+### 4. Qiymətləndirmə və Rəylər
 
-Mesaj hissəsinə "Tapşırıq tamamlandı" yazın.
+* Mən sizin kodunuza baxdıqdan sonra, GitHub-da **"Pull Requests"** və ya **"Feedback"** bölməsində rəylərimi qeyd edəcəyəm.
 
-Commit və Sync Changes (və ya Push) düymələrini sıxın.
-
-4. Qiymətləndirmə və Rəylər
-Mən sizin kodunuza baxdıqdan sonra, GitHub-da "Pull Requests" və ya "Feedback" bölməsində rəylərimi qeyd edəcəyəm.
+---
