@@ -2,6 +2,14 @@
 
 Bu repozitoriya **Western Caspian University** tələbələri üçün C proqramlaşdırma dilinin əsaslarını öyrənmək məqsədilə yaradılmışdır. Burada siz real kompilyasiya prosesini və terminal əmrlərini öyrənəcəksiniz.
 
+---
+
+**Müəllim:** Leyla Məmmədova
+
+**Kafedra:** İnformasiya Texnologiyaları
+
+---
+
 ## 🛠️ Mühitin Qurulması (GitHub Codespaces)
 
 Bu kursda biz heç bir əlavə proqram yükləmədən **GitHub Codespaces** mühitindən istifadə edirik. Burada `gcc` (GNU Compiler Collection) artıq quraşdırılmış vəziyyətdədir.
@@ -85,15 +93,6 @@ int main() {
 }
 
 ```
-
----
-
-**Müəllim:** Leyla Məmmədova
-
-**Kafedra:** İnformasiya Texnologiyaları
-
----
-
 
 ---
 
