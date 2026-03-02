@@ -1,10 +1,14 @@
 # 🎓 C Proqramlaşdırma Dili: Mühazirə 1
 
-**Universitet:** Qərbi Kaspi Universiteti
+**Universitet:** Qərbi Kaspi Universiteti\n
 **Müəllim:** Leyla Məmmədova
 **Fənn:** C proqramlaşdırma dili
 
 ---
+### Dərs və Ev tapşırığı Linkləri
+
+* [Cprog_dərs_01](https://drive.google.com/drive/folders/12Czcl1kkkOeRA_mVeZKuDUptpCtI6Qhd?usp=sharing)
+
 
 ## 📖 1. C Dilinin İcmalı və Tarixi
 
