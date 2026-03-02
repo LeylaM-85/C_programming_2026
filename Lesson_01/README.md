@@ -1,4 +1,3 @@
-```markdown
 # 🎓 C Proqramlaşdırma Dili: Mühazirə 1
 
 **Universitet:** Qərbi Kaspi Universiteti
@@ -49,7 +48,6 @@ int main() {
     return 0;
 }
 
-```
 
 ### 🔍 Kodun İzahı:
 
