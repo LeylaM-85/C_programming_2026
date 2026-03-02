@@ -10,89 +10,8 @@ Bu repozitoriya **Western Caspian University** tələbələri üçün C proqraml
 
 ---
 
-## 🛠️ Mühitin Qurulması (GitHub Codespaces)
-
-Bu kursda biz heç bir əlavə proqram yükləmədən **GitHub Codespaces** mühitindən istifadə edirik. Burada `gcc` (GNU Compiler Collection) artıq quraşdırılmış vəziyyətdədir.
-
-## 🚀 Kodun Yazılması və İcra Edilməsi
-
-C dilində yazdığınız bir kodun proqram kimi işləməsi üçün iki əsas mərhələdən keçməlidir: **Kompilyasiya** və **İcra**.
-
-### 1. Terminalı Açın
-
-Github-a daxil olun
-GitHub Codespaces - yaşıl rəngli <>Code düyməsinə klikləyin ordan isə - "Create codespace on main" - düyməsinə kliklədikdə, GitHub sizin üçün buludda xüsusi bir virtual mühit yaradır. Bu, kompüterinizə heç bir əlavə proqram (məsələn, mürəkkəb compiler-lər və ya IDE-lər) quraşdırmadan birbaşa brauzer daxilində kod yazmağa və onu işə salmağa imkan verir.
-
-Hazırlanma: Bir neçə saniyə ərzində mühit qurulacaq.
-
-Redaktor: Qarşınızda Visual Studio Code-un brauzer versiyası açılacaq.
-
-İş sahəsi: Sol tərəfdəki fayl siyahısında qovluqları görəcəksiniz.
-
-Kodlama:  .c faylını açıb və ya yaradıb kodunuzu yaza və terminal vasitəsilə icra edə bilərsiniz.
-
-1. Mövcud fayllar üzərində işləmək
-Şəkildə gördüyünüz qovluqların içində artıq .c faylları varsa, sadəcə sol tərəfdəki siyahıdan həmin faylın üzərinə klikləməyiniz kifayətdir. Fayl mərkəzi ekranda açılacaq və siz kodu redaktə edə biləcəksiniz.
-
-2. Yeni fayl yaratmaq
-Əgər tamamilə yeni bir kod yazmaq istəyirsinizsə, bunu birbaşa brauzer daxilində edə bilərsiniz:
-
-Sol paneldə boş bir yerə sağ düymə ilə klikləyin və ya kod yazdiginiz qovluğu açaraq onun daxilində sağ düymə ilə klikləyin
-
-"New File" seçin.
-
-Fayla ad verin (məsələn: test.c). Vacib məqam: Faylın sonuna mütləq .c artırın ki, sistem onun C dili olduğunu başa düşsün.
-
-Klaviaturada `Ctrl` + ``` (tab düyməsinin üstü) düymələrini sıxaraq terminal pəncərəsini açın.
-
-### 2. Kompilyasiya (Compilation)
-
-Yazdığınız `.c` uzantılı faylı kompüterin başa düşəcəyi maşın dilinə çevirmək üçün aşağıdakı əmri yazın:
-
-```bash
-gcc ders1.c -o ders1
-
-```
-
-* `gcc`: Kompilyator proqramın adıdır.
-* `ders1.c`: Sizin yazdığınız kod faylı.
-* `-o ders1`: Yaradılacaq icra oluna bilən (executable) faylın adı.
-
-### 3. Proqramı İşlətmək (Execution)
-
-Kompilyasiya uğurlu bitdikdən sonra proqramı işlətmək üçün terminala bunu yazın:
-
-```bash
-./ders1
-
-```
-
----
-
-## 📋 Faydalı Terminal Əmrləri
-
-| Əmr | Təsviri |
-| --- | --- |
-| `ls` | Qovluqdakı faylların siyahısını göstərir. |
-| `cd qovluq_adi` | Göstərilən qovluğa daxil olur. |
-| `clear` | Terminal ekranını təmizləyir. |
-| `gcc --version` | Quraşdırılmış GCC versiyasını yoxlayır. |
-
----
-
-## 📝 İlk Tapşırıq (Hello World)
-
-Aşağıdakı kodu `salam.c` faylı yaradaraq daxilinə yazın və yuxarıdakı əmrlərlə işlədin:
-
-```c
-#include <stdio.h>
-
-int main() {
-    printf("Salam, C dunyasina xoş gelmisiniz!\n");
-    return 0;
-}
-
-```
+### MATERIAL
+** [C proqramlaşdırma](https://drive.google.com/file/d/1CMFoo4uMT4gIDwnkr4HZhUvuTWceTDX1/view?usp=sharing)
 
 ---
 
@@ -132,10 +51,7 @@ Proqramlaşdırmaya yeni başlayanda xətalarla qarşılaşmaq tamamilə normald
 
 ## 💡 Qızıl Qayda: "Compile Early, Compile Often"
 
-Kodu 50 sətir birdən yazıb sonra kompilyasiya etməyin. Hər 2-3 sətirdən bir `gcc` əmri ilə yoxlayın ki, xətanın harada olduğunu dərhal biləsiniz.
-
----
-
+Kodu 50 sətir birdən yazıb sonra kompilyasiya etməyin. Hər 2-3 sətirdən bir yoxlayın ki, xətanın harada olduğunu dərhal biləsiniz.
 
 ---
 
@@ -143,7 +59,7 @@ Kodu 50 sətir birdən yazıb sonra kompilyasiya etməyin. Hər 2-3 sətirdən b
 
 ### 1. `scanf`ilə Məlumat Girişi (Diqqətli olun!)
 
-İstifadəçidən məlumat alarkən C dili bizdən dəyişənin yaddaşdakı **ünvanını** istəyir. Buna görə də dəyişən adının önünə mütləq **`&`** işarəsi qoyulmalıdır.
+İstifadəçidən məlumat alarkən C dili bizdən dəyişənin yaddaşdakı **ünvanını** istəyir. Buna görə də dəyişən adının önünə mütləq **`&` ampersand** işarəsi qoyulmalıdır.
 
 * **Düzgün:** `scanf("%d", &yas);` — "Yaşı oxu və `yas` dəyişəninin ünvanına yaz."
 * **Səhv:** `scanf("%d", yas);` — Bu proqramın işini dərhal dayandırmasına (Segmentaton fault) səbəb olacaq.
@@ -171,10 +87,6 @@ Məlumatları daxil edərkən və ya çap edərkən düzgün simvoldan istifadə
 
 ---
 
----
-
----
-
 ## 🎓 GitHub Classroom ilə Tapşırıqların Təhvili
 
 Bu kursda tapşırıqlar **GitHub Classroom** vasitəsilə idarə olunur. Bu sistem sizin kod yazma bacarığınızı real iş mühitinə uyğun şəkildə inkişaf etdirəcək.
@@ -185,19 +97,31 @@ Bu kursda tapşırıqlar **GitHub Classroom** vasitəsilə idarə olunur. Bu sis
 * **"Accept this assignment"** düyməsini sıxın.
 * GitHub avtomatik olaraq sizin adınızla başlayan yeni bir repozitoriya yaradacaq (Məsələn: `tapshiriq-1-LeylaM-85`).
 
-### 2. Kodun Yazılması (Codespaces)
+### 2. Kodun Yazılması və Təqdim Edilməsi 
+* Repozitoriyaya giriş: Sizin üçün yaradılmış şəxsi repozitoriyanıza daxil olun.
 
-* Yaradılan repozitoriyanıza daxil olun.
-* Yaşıl **"<> Code"** düyməsinə klikləyib **Codespaces** bölməsindən mühiti açın.
-* Kodunuzu yazın, terminalda yoxlayın (C və ya Python).
+* Redaktor seçimi: "Select an editor" seçilmədiyi üçün kodu bir neçə üsulla yaza bilərsiniz:
+
+* Brauzerdə (Codespaces): Yaşıl "<> Code" düyməsinə klikləyin, Codespaces tabına keçin və "Create codespace on main" seçərək onlayn mühiti özünüz yaradın.
+
+* Lokalda: Kodu öz kompyuterinizdəki proqramda (VS Code, Dev-C++ və s.) yazıb, sonra faylı GitHub-a yükləyin (Upload).
+
+* Yoxlama: Yazdığınız C kodunun düzgün işlədiyindən əmin olun (məsələn, gcc ilə kompilyasiya edərək).
+
 
 ### 3. Tapşırığın Göndərilməsi (Submit)
 
-GitHub Classroom-da tapşırığı göndərmək üçün "Göndər" düyməsi yoxdur. Sizin etdiyiniz hər bir **Commit** və **Push** əməliyyatı artıq müəllim tərəfindən görünür.
+* GitHub Classroom-da xüsusi "Göndər" düyməsi yoxdur. Sizin etdiyiniz hər bir Commit əməliyyatı avtomatik olaraq müəllim tərəfindən görünür.
 
-* Sol menyuda **Source Control** (üçbucaq işarəsi) bölməsinə keçin.
+* Əgər brauzerdə (GitHub saytında) işləyirsinizsə: Kodunuzu yazıb bitirdikdən sonra sağ üst küncdəki "Commit changes..." düyməsini sıxın və açılan pəncərədə təsdiqləyin.
+
+* Əgər VS Code və ya Codespaces-də işləyirsinizsə:
+
+* Sol menyuda Source Control (göy rəqəm işarəsi olan bölmə) hissəsinə keçin.
+
 * Mesaj hissəsinə "Tapşırıq tamamlandı" yazın.
-* **Commit** və **Sync Changes** (və ya Push) düymələrini sıxın.
+
+* Commit düyməsini sıxın və sonra Sync Changes (və ya Push) edərək kodunuzu serverə göndərin.
 
 ### 4. Qiymətləndirmə və Rəylər
 
