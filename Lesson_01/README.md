@@ -1,5 +1,3 @@
-Əlbəttə, birbaşa `README.md` faylının içərisinə yapışdıra biləcəyin tam mətni aşağıda təqdim edirəm. Bu format GitHub-da həm kodların rəngli görünməsini, həm də başlıqların səliqəli düzülməsini təmin edəcək.
-
 ```markdown
 # 🎓 C Proqramlaşdırma Dili: Mühazirə 1
 
@@ -79,7 +77,4 @@ C proqramının icra oluna bilən fayla çevrilməsi 4 mərhələdən ibarətdir
 * **Valgrind:** Yaddaş sızmalarını aşkar etmək üçün (Linux).
 
 ```
-
-Bunu kopyalayıb GitHub-da redaktə etdiyin hissəyə yapışdırsaın, "Commit changes" düyməsi aktivləşəcək. GitHub Classroom üçün tələbələrinə bu formatda tapşırıq hazırlamağımı istərdin?
-
 ```
