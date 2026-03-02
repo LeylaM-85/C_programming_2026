@@ -47,7 +47,7 @@ int main() {
     printf("Salam Dünya!\n");
     return 0;
 }
-
+```
 
 ### 🔍 Kodun İzahı:
 
