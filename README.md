@@ -1,4 +1,4 @@
-# C Proqramlaşdırma: Laboratoriya İşləri 💻
+# C Proqramlaşdırma 💻
 
 Bu repozitoriya **Western Caspian University** tələbələri üçün C proqramlaşdırma dilinin əsaslarını öyrənmək məqsədilə yaradılmışdır. Burada siz real kompilyasiya prosesini və terminal əmrlərini öyrənəcəksiniz.
 
