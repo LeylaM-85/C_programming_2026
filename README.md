@@ -11,7 +11,7 @@ Bu repozitoriya **Western Caspian University** tələbələri üçün C proqraml
 ---
 
 ### MATERIAL
-** [C proqramlaşdırma](https://drive.google.com/file/d/1CMFoo4uMT4gIDwnkr4HZhUvuTWceTDX1/view?usp=sharing)
+ [C proqramlaşdırma](https://drive.google.com/file/d/1CMFoo4uMT4gIDwnkr4HZhUvuTWceTDX1/view?usp=sharing)
 
 ---
 
