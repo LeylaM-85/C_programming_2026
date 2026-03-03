@@ -68,12 +68,15 @@ ad[strcspn(ad, "\n")] = '\0'; // Sondakı Enter simvolunu təmizləyir
 #### Niyə `<string.h>` lazımdır?
 
 C-də mətnlər massiv olduğu üçün onlarla birbaşa riyazi əməliyyat aparmaq olmur. Bu kitabxana bizə lazımdır:
-
-* `strcspn()`: Simvolun yerini tapmaq (məsələn, `\n`-i silmək üçün).
-* `strlen()`: Mətnin uzunluğunu tapmaq.
-* `strcpy()`: Bir mətni digərinə kopyalamaq.
-* `strcmp()`: İki mətni müqayisə etmək.
-
+1.	strcspn() ("String Complement Span"):
+o	Mətnin içində müəyyən bir simvolu (məsələn, \n) axtarıb onun yerini (indeksini) tapmaq üçün. fgets() ilə gələn "Enter"i silmək üçün bu funksiya mütləqdir.
+2.	strlen() (String Length):
+o	Mətnin neçə simvoldan ibarət olduğunu (uzunluğunu) hesablamaq üçün.
+o	Məsələn: "Salam" -> 5.
+3.	strcpy() (String Copy):
+o	Bir mətni digərinə kopyalamaq üçün. C-də ad2 = ad1 yaza bilməzsiniz, bunun yerinə strcpy(ad2, ad1) yazmalısınız.
+4.	strcmp() (String Compare):
+o	İki mətnin bir-birinə bərabər olub-olmadığını yoxlamaq üçün. if (ad1 == ad2) yazmaq C-də səhv nəticə verər, bunun üçün strcmp funksiyası lazımdır.
 ---
 
 ### 1.4 `puts()` və `putchar()`
