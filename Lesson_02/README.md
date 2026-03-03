@@ -1,4 +1,4 @@
-# 📘 Mühazirə 2: Məlumat Tipləri, Dəyişənlər və Sabitlər
+# 📘 Mühazirə 2: Məlumat Tipləri, Dəyişənlər və Sabitlər 
 
 Bu mühazirədə C dilində məlumatların yaddaşda necə saxlanılması, format spesifikatorları, yaddaş optimallaşdırması və tip dönüşümləri mövzularını əhatə edəcəyik.
 
