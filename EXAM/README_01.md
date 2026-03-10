@@ -4,10 +4,10 @@ C proqramlaşdırma dili
 
 *Bu suallar dəyişənlər, `printf`, `scanf` və sadə operatorları əhatə edir.*
 
-* **27.** İstifadəçinin daxil etdiyi ədədin kubunu hesablayan proqramı yazın.
-* **141.** Bir tam ədəd təyin edin, onun ünvanını pointer vasitəsilə çap edən sadə proqram yazın.
-* **61.** 1-dən 10-a qədər olan ədədləri çap edən "for" dövrü proqramını yazın.
-* **18.** 3 rəqəmli ədədin rəqəmləri cəmini tapan proqramı tərtib edin.
+* **27.** İstifadəçinin daxil etdiyi ədədin kubunu hesablayan proqramı yazın. +
+* **141.** Bir tam ədəd təyin edin, onun ünvanını pointer vasitəsilə çap edən sadə proqram yazın. -------
+* **61.** 1-dən 10-a qədər olan ədədləri çap edən "for" dövrü proqramını yazın. -------
+* **18.** 3 rəqəmli ədədin rəqəmləri cəmini tapan proqramı tərtib edin. +
 * **19.** 4 rəqəmli ədədin rəqəmləri cəmini tapan proqramı tərtib edin.
 * **20.** 3 rəqəmli ədədin rəqəmləri hasilini tapan proqramı tərtib edin.
 * **21.** 4 rəqəmli ədədin rəqəmləri hasilini tapan proqramı tərtib edin.
